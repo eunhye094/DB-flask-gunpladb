@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Insert Mechanic</title>
+    </head>
+    <body>
+        <form method="POST" action="/insert">
+            <h3>Mechanic</h3>
+            <label for="name">name:</label><br/>
+            <input type="text" name="name" placeholder="name"/><br/>
+
+            <label for="model">model:</label><br/>
+            <input type="text" name="model" placeholder="model"/><br/>
+            
+            <label for="manufacturer">manufacturer:</label><br/>
+            <input type="text" name="manufacturer" placeholder="manufacturer"/><br/>
+            
+            <label for="armor">armor:</label><br/>
+            <input type="text" name="armor" placeholder="armor"/><br/>
+            
+            <label for="height">height:</label><br/>
+            <input type="number" step="0.01" name="height" placeholder="height"/><br/>
+            
+            <label for="weight">weight:</label><br/>
+            <input type="number" step="0.01" name="weight" placeholder="weight"/><br/>
+            
+            <p>
+                <input type="submit" value="추가"/>    
+            </p>
+    </form>
+    </body>
+</html>

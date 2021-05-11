@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="/static/gunpla.css">
+        <title>Mechanic</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                {% for key, value in list[0].items() %}
+                    <th>{{ key }}</th>
+                {% endfor %}
+            </tr>
+            {% for row in list %}
+            <tr class="mechanic">
+                {% for key, value in row.items() %}
+                    <td>{{ value }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

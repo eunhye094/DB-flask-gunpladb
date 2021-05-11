@@ -1,1 +1,1 @@
-# flask-gunpladb
+# Flask를 사용한 MySQL 접근
